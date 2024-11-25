@@ -290,5 +290,8 @@ app.post('/capnhatbaivietdasua', function (req, res) {
     if (err) throw err;
   });
 });
-//gg
+
+app.get('/github', function (req, res) {
+  res.status(200);  
+});
 app.listen(3000);
