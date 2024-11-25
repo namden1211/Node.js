@@ -291,5 +291,4 @@ app.post('/capnhatbaivietdasua', function (req, res) {
   });
 });
 
-//gg
 app.listen(3000);
