@@ -291,7 +291,5 @@ app.post('/capnhatbaivietdasua', function (req, res) {
   });
 });
 
-app.get('/github', function (req, res) {
-  res.status(200);  
-});
+
 app.listen(3000);
